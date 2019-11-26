@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:layout_marginBottom="3dp">
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:textColor="#000000"
+            android:text="x"
+            android:id="@+id/close_dialog"
+            android:textSize="20sp"
+            android:background="@android:color/transparent"
+            android:layout_gravity="end"
+            android:layout_marginRight="3dp"
+            />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/employee_image"
+            android:src="@drawable/ic_launcher_foreground"
+            android:layout_gravity="center_horizontal"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.9"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:paddingTop="10dp"
+                    android:text="Id: "
+                    android:textSize="15sp"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:paddingTop="10dp"
+                    android:text="Category Id: "
+                    android:textSize="15sp"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:paddingTop="10dp"
+                    android:text="Name: "
+                    android:textSize="15sp"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:paddingTop="10dp"
+                    android:text="Category: "
+                    android:textSize="15sp"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:paddingTop="10dp"
+                    android:text="Address: "
+                    android:textSize="15sp"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:paddingTop="10dp"
+                    android:text="Description: "
+                    android:textSize="15sp"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:paddingTop="10dp"
+                    android:text="Contact: "
+                    android:textSize="15sp"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:paddingTop="10dp"
+                    android:text="Emp Code: "
+                    android:textSize="15sp"
+                    android:textColor="#000"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                >
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/employee_id"
+                    android:textColor="#000"
+                    android:layout_marginRight="5dp"
+                    />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/employee_category_id"
+                    android:textColor="#000"
+                    android:layout_marginRight="5dp"
+                    />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/employee_name"
+                    android:textColor="#000"
+                    android:layout_marginRight="5dp"
+                    />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/employee_category"
+                    android:textColor="#000"
+                    android:layout_marginRight="5dp"
+                    />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/employee_address"
+                    android:textColor="#000"
+                    android:layout_marginRight="5dp"
+                    />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/employee_id_description"
+                    android:textColor="#000"
+                    android:layout_marginRight="5dp"
+                    />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/employee_contact"
+                    android:textColor="#000"
+                    android:inputType="number"
+                    android:layout_marginRight="5dp"
+                    />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/employee_code"
+                    android:textColor="#000"
+                    android:layout_marginRight="5dp"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="Update"
+            android:id="@+id/submit"
+            android:textSize="15dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>
